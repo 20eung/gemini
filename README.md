@@ -1,6 +1,38 @@
 # Google Gemini
 Google gemini-cli 정보
 
+## gemini-cli 설치방법
+
+### 사전 요구사항 (필수)
+
+- Node.js ≥ v18 (권장 v20 이상)
+- npm 설치 여부 확인: node -v, npm -v
+- Google API Key (Gemini API Key) 또는 Google Login
+
+### gemini-cli 설치
+
+#### 1. 한 번만 사용
+
+```bash
+npx https://github.com/google-gemini/gemini-cli
+```
+
+#### 2. 글로벌 설치 (자주 사용 시 권장)
+
+```bash
+sudo npm install -g @google/gemini-cli
+```
+
+### 인증 방식 선택
+
+#### Google 계정 로그인 : 무료 개인 사용자 기준, 2.5 Pro 모델 지원 (60 req/min, 1,000 req/day)
+
+#### API 키 설정 : 더 높은 한도 필요 시
+
+```bash
+export GEMINI_API_KEY="YOUR_API_KEY"
+```
+
 ## GEMINI.md
 
 파일 위치: %USERPROFILE%\.gemini\GEMINI.md
